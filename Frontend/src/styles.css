@@ -1,0 +1,249 @@
+:root {
+  --plum: #4b2639;
+  --rose: #ab5d80;
+  --ivory: #fdfaf9;
+  --text-dark: #2a1821;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--ivory);
+  color: var(--text-dark);
+  font-family: system-ui, -apple-system, sans-serif;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--rose);
+  padding-bottom: 1rem;
+}
+
+h1 {
+  color: var(--plum);
+}
+
+.cart-badge {
+  background-color: var(--rose);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.products-list {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: white;
+  border: 1px solid #eadce2;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 260px;
+  box-shadow: 0 4px 10px rgba(75, 38, 57, 0.05);
+}
+
+.product-card h3 {
+  color: var(--plum);
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: var(--plum);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--rose);
+}
+:root {
+  --plum: #4b2639;
+  --rose: #ab5d80;
+  --ivory: #fdfaf9;
+  --text-dark: #2a1821;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--ivory);
+  color: var(--text-dark);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.2rem 2rem;
+  border-bottom: 2px solid var(--rose);
+  background: white;
+}
+
+.brand-logo {
+  color: var(--plum);
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.main-nav a {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.main-nav a:hover {
+  color: var(--rose);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.2rem;
+}
+
+.page-title {
+  color: var(--plum);
+  margin-bottom: 1.5rem;
+}
+
+.hero {
+  background: white;
+  border: 1px solid #eadce2;
+  border-radius: 14px;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.hero h2 {
+  color: var(--plum);
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+  color: #5c434f;
+}
+
+.hero-btn {
+  display: inline-block;
+  width: auto;
+  padding: 0.75rem 1.8rem;
+}
+
+.categories-section h3 {
+  color: var(--plum);
+  margin-bottom: 1rem;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.category-card {
+  background: white;
+  border: 1px solid var(--rose);
+  color: var(--plum);
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.category-card:hover {
+  background: var(--plum);
+  color: white;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 24px;
+}
+
+.product-card {
+  background: white;
+  border: 1px solid #eadce2;
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+
+.product-card h3 {
+  color: var(--plum);
+  margin-bottom: 0.4rem;
+}
+
+.product-card p {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: var(--plum);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 0.95rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--rose);
+}
